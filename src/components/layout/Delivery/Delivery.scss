@@ -1,0 +1,16 @@
+.ps-delivery{
+    background-color: #f0f0f0;
+    height: 300px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+    .ps{
+        // justify-content: space-around;
+        text-align: center;
+
+        h3{
+            font-size: 24px;
+        }
+    }
+}
