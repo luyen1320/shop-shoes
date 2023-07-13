@@ -1,0 +1,71 @@
+@import './../../../style/setting';
+
+.banner{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/image/bg1.png);
+    background-size: cover;
+    background-position: center;
+    
+    .banner-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .banner-text{
+
+            h1{
+                font-size: 90px;
+                line-height: 70px;
+                font-family: pyxidium quick;
+                background: linear-gradient(to right, #c72092,#6c14d0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                position: relative;
+                top: 45px;
+                left: 5%;
+
+                span{
+                    font-size: 70px;
+                    background: linear-gradient(to right, #c72092,#6c14d0);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+
+            p{
+                width: 600px;
+                text-align: justify;
+                line-height: 21px;
+                position: relative;
+                top: 85px;
+                left: 5%;
+            }
+        }
+
+        .banner-image{
+
+            img{
+                width: 600px;
+                position: relative;
+                left: 206px;
+                top: 17px;
+            }
+        }
+    }
+
+    // .social-icon{
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 98%;
+    //     transform: translate(-50%,-50%);
+    //     font-size: 19px;
+
+    //     i{
+    //         margin: 10px 5px;
+    //         cursor: pointer;
+    //         transition: 0.3s;
+    //     }
+    // }
+}

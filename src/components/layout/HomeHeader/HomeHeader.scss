@@ -1,0 +1,76 @@
+.header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+        background: white;
+        position: relative;
+        z-index: 50;
+        // top:0;
+        // width: 100%;
+
+        &.active{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            transition: 0.3s;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+            z-index: 9999;
+            background: #fff;
+        }
+
+        .logo{
+            // font-size: 41px;
+            margin: 5px 0;
+            cursor: pointer;
+            position: relative;
+            left: -4%;
+
+            h1{
+                font-weight: 750;
+                font-size: 41px;
+                span{
+                    color: #6c14d0;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        ul{
+            list-style: none;
+            margin-bottom: 0px;
+            
+            li{
+                
+                display: inline-block;
+                margin: 10px 25px;
+
+                a{
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+                    transition: 3s all;
+
+                    &:hover{
+                        color: #c72092;
+                    }
+                }
+            }
+        }
+
+        .icons{
+
+            i{
+                margin: 0 10px;
+                cursor: pointer;
+                font-size: 20px;
+                transition: 0.3s;
+
+                &:hover{
+                    color: #c72092;
+                }
+            }
+        }
+    }
+
