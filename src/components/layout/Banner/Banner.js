@@ -37,7 +37,7 @@ function Banner(props) {
     //   </div>
     // </div>
     <>
-      <MDBCarousel showControls showIndicators>
+      <MDBCarousel showControls showIndicators style={{ top: "68px" }}>
         <MDBCarouselItem
           className="w-100 d-block"
           itemId={1}

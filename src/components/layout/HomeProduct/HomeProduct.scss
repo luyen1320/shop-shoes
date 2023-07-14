@@ -95,7 +95,8 @@
     margin: 0 var(--spacing);
 
     .list-item{
-        margin: 0 20px;
+        border: 1px solid;
+        margin: 20px;
         width: calc(25% - var(--spacing) *2);
 
         img{

@@ -4,21 +4,21 @@
         justify-content: space-around;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
         background: white;
-        position: relative;
+        position: fixed;
         z-index: 50;
-        // top:0;
-        // width: 100%;
+        top:0;
+        width: 100%;
 
-        &.active{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            transition: 0.3s;
-            box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-            z-index: 9999;
-            background: #fff;
-        }
+        // &.active{
+        //     position: fixed;
+        //     top: 0;
+        //     left: 0;
+        //     width: 100%;
+        //     transition: 0.3s;
+        //     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+        //     z-index: 9999;
+        //     background: #fff;
+        // }
 
         .logo{
             // font-size: 41px;
