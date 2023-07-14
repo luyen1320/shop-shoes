@@ -5,31 +5,37 @@ function Delivery(props) {
   return (
     <div className="ps-delivery">
       <div className="ps">
-        <i className="fa-solid fa-money"></i>
-        <h3 style={{ fontSize: "22px" }}>CAM KẾT CHÍNH HÃNG</h3>
-        <p style={{ fontSize: "14px" }}>100% Authentic</p>
-        <div>
-          <p style={{ fontSize: "14px" }}>
-            Cam kết san phẩm chính hãng từ Châu Âu, Châu Mỹ...
-          </p>
+        <div className="ps1 wid">
+          <i class="icons fa-solid fa-wallet"></i>
+          <h3 className="title">CAM KẾT CHÍNH HÃNG</h3>
+          <p className="content-title">100% Authentic</p>
+          <div>
+            <p className="content-t">
+              Cam kết san phẩm chính hãng từ Châu Âu, Châu Mỹ...
+            </p>
+          </div>
         </div>
       </div>
       <div className="ps">
-        <i className="fa-solid fa-money"></i>
-        <h3 style={{ fontSize: "22px" }}>GIAO HÀNG HỎA TỐC</h3>
-        <p style={{ fontSize: "14px" }}>Express delivery</p>
-        <div>
-          <p style={{ fontSize: "14px" }}>
-            SHIP hỏa tốc 1h nhận hàng trong nội thành Hà Nội
-          </p>
+        <div className="ps1 wid">
+          <i class="icons fa-solid fa-truck"></i>
+          <h3 className="title">GIAO HÀNG HỎA TỐC</h3>
+          <p className="content-title">Express delivery</p>
+          <div>
+            <p className="content-t">
+              SHIP hỏa tốc 1h nhận hàng trong nội thành Hà Nội
+            </p>
+          </div>
         </div>
       </div>
       <div className="ps">
-        <i className="fa-solid fa-money"></i>
-        <h3 style={{ fontSize: "22px" }}>HỖ TRỢ 24/24</h3>
-        <p style={{ fontSize: "14px" }}>Supporting 24/24</p>
-        <div>
-          <p style={{ fontSize: "14px" }}>Gọi ngay</p>
+        <div className="ps1 wid">
+          <i class="icons fa-solid fa-phone"></i>
+          <h3 className="title">HỖ TRỢ 24/24</h3>
+          <p className="content-title">Supporting 24/24</p>
+          <div>
+            <p className="content-t">Gọi ngay</p>
+          </div>
         </div>
       </div>
     </div>

@@ -11,8 +11,8 @@ function HomePage(props) {
     <div>
       <Banner />
       <Delivery />
-      <NewProduct />
       <HomeProduct />
+      <NewProduct />
       <HomeFooter />
     </div>
   );

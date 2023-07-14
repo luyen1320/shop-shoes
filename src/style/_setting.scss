@@ -237,3 +237,32 @@ input, textarea, select{
     background-color: darken($clr-red, 6%);
   }
 }
+
+//delivery
+.wid {
+  width: 400px;
+}
+
+.icons{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.title{
+  font-size: 21px;
+  line-height: 1;
+  font-weight: 500;
+  color: rgb(255, 195, 0);
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.content-title{
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.content-t{
+  font-size: 12px;
+}
